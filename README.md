@@ -15,4 +15,4 @@ Horiseon is a marketing agency that wanted a codebase that followed acessibility
 <img src="Screen Shot 2022-03-19 at 11.57.35 PM.jpg" alt="Horiseon's social media marketing" />
 
 ## Link
-[bconement] (https://megansilva.github.io/bconement/)
+[bconement](https://megansilva.github.io/bconement/)
