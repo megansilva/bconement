@@ -1,13 +1,17 @@
+/* Adds styling to the whole page */
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0;
 }
-
+/* Adds the background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Adds a padding to the header, picks a font, 
+a background color for this header, and a color for 
+the text */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,20 @@ header {
     color: #ffffff;
 }
 
+/* Header styling for font-size and for it to 
+display in-line with the conatiner set */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* adds a color to the letter "SEO" in the title */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* adds styling to the links in the header "serach, 
+online rep, and social media */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +41,31 @@ header nav {
     font-size: 20px;
 }
 
+/* so the ul doesnt display under eachother, sets no display */
 header nav ul {
     list-style-type: none;
 }
 
+/* sets the display of the list to be inline with eachother 
+and adds a margin from the left side */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* no text decoration and adds color 
+to the links in the header */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* adds a font size to the paragraphs throughout the wedpage  */
 p {
     font-size: 16px;
 }
 
+/* adds the cover image to under the header and above the content of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +75,27 @@ p {
     background-position: center;
 }
 
+/* floats the content in serach engine and social media to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* floats the content in online reputation to the right of the column */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* contetn section makes sure they display inline and adds 
+a width of the section to be taken up */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the benefits section to be on the right side (aside) */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +107,26 @@ p {
     background-color: #2589bd;
 }
 
+/* adds styling to the class benefit */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* adds styling to the titles of the benefits section */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* adds style to the images in benefits */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* adds styling to the titles in the header */
 .horiseon-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +136,18 @@ p {
     color: #ffffff;
 }
 
+/* styles the images in this section */
 .horiseon-content img {
     max-height: 200px;
 }
 
+/* adds styling to the context in the main body */
 .horiseon-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* styles the footer of the project */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +155,7 @@ footer {
     text-align: center;
 }
 
+/* styles the footers text */
 footer h2 {
     font-size: 20px;
 }
